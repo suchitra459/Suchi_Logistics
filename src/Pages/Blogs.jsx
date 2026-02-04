@@ -1,0 +1,95 @@
+import React from "react";
+
+const Blogs = () => {
+  const blogs = [
+    {
+      id: 1,
+      image:
+        "https://images.unsplash.com/photo-1601584115197-04ecc0da31d7",
+      title: "How to Optimize Shipping Routes for Efficiency",
+      date: "September 10, 2024",
+      desc:
+        "Learn how to optimize your shipping routes to reduce costs and improve delivery times.",
+    },
+    {
+      id: 2,
+      image:
+        "https://images.unsplash.com/photo-1586528116311-ad8dd3c8310d",
+      title: "The Future of Logistics with AI and Automation",
+      date: "August 25, 2024",
+      desc:
+        "Discover how AI and automation are revolutionizing the logistics industry.",
+    },
+  ];
+
+  return (
+    <div className="w-full">
+      {/* Hero Section */}
+      <div
+        className="relative h-[280px] flex items-center justify-center bg-cover bg-center"
+        style={{
+          backgroundImage:
+            "url('')",
+        }}
+      >
+        <div className="absolute inset-0 bg-black/50"></div>
+        <h1 className="relative text-white text-4xl font-bold">
+          Our Blogs
+        </h1>
+      </div>
+
+      {/* Blog Cards */}
+      <div className="max-w-6xl mx-auto px-8 py-10">
+        <div className="grid md:grid-cols-2 gap-10">
+          {blogs.map((blog) => (
+            <div
+              key={blog.id}
+              className="bg-white rounded-lg shadow-md overflow-hidden"
+            >
+              <img
+                src={blog.image}
+                alt={blog.title}
+                className="h-52 w-full object-cover"
+              />
+
+              <div className="p-6">
+                <h3 className="text-xl font-semibold mb-2">
+                  {blog.title}
+                </h3>
+
+                <p className="text-sm text-gray-500 mb-4">
+                  {blog.date}
+                </p>
+
+                <p className="text-gray-600 text-sm mb-6">
+                  {blog.desc}
+                </p>
+
+                <button className="text-blue-600 text-sm font-medium hover:underline">
+                  Read More →
+                </button>
+              </div>
+            </div>
+          ))}
+        </div>
+
+        {/* Pagination */}
+        <div className="flex items-center justify-between mt-16">
+          <button className="px-4 py-2 bg-gray-200 rounded text-sm">
+            Previous
+          </button>
+
+          <span className="text-sm text-gray-600">
+            Page 1 of 1
+          </span>
+
+          <button className="px-4 py-2 bg-gray-200 rounded text-sm">
+            Next
+          </button>
+        </div>
+      </div>
+    </div>
+  );
+};
+
+export default Blogs;
