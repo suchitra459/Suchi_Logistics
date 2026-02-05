@@ -5,7 +5,7 @@ const OurCapabilities = () => {
     <section className="w-screen bg-white py-20">
       {/* ===== TOP: CAPABILITIES ===== */}
       <div className="max-w-7xl mx-auto px-6">
-        <h2 className="text-3xl md:text-4xl font-bold text-center mb-14 text-gray-900">
+        <h2 className="text-3xl md:text-4xl font-bold text-center mb-10 text-gray-900">
           Our Capabilities
         </h2>
 
@@ -61,7 +61,7 @@ const OurCapabilities = () => {
       </div>
 
       {/* ===== BOTTOM: MISSION / VISION / VALUES ===== */}
-      <div className="w-full bg-green-50 mt-24 py-20">
+      <div className="w-full bg-green-50 mt-24 py-15">
         <div className="max-w-7xl mx-auto px-6 grid grid-cols-1 lg:grid-cols-2 gap-12 items-start">
           
           {/* Left Content */}

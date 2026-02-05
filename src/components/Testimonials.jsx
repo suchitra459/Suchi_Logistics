@@ -2,7 +2,7 @@ import React from "react";
 
 const Testimonials = () => {
   return (
-    <section className="w-full bg-green-50 py-20">
+    <section className="w-full bg-green-50 py-15">
       <div className="w-full px-8 text-center">
         
         {/* Heading */}
@@ -11,7 +11,7 @@ const Testimonials = () => {
         </h2>
 
         {/* Cards */}
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-10 max-w-6xl mx-auto">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-10 max-w-5xl mx-auto">
           
           {/* Card 1 */}
           <div className="bg-white rounded-xl shadow-md px-8 py-10">

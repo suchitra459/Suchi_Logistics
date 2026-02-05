@@ -1,17 +1,35 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
+
+const images = [
+  "https://images.unsplash.com/photo-1586528116493-7c2b56e39acc?auto=format&fit=crop&w=1920&q=80",
+  "https://images.unsplash.com/photo-1600891964599-f61ba0e24092?auto=format&fit=crop&w=1920&q=80",
+  "https://images.unsplash.com/photo-1566576912321-d58ddd7a6088?auto=format&fit=crop&w=1920&q=80",
+];
 
 const HeroBanner = () => {
+  const [current, setCurrent] = useState(0);
+
+  useEffect(() => {
+    const interval = setInterval(() => {
+      setCurrent((prev) => (prev + 1) % images.length);
+    }, 2000); // 2 seconds
+
+    return () => clearInterval(interval);
+  }, []);
+
   return (
-    <section className="relative w-screen h-[420px] md:h-[500px] overflow-hidden ">
+    <section className="relative w-screen h-[420px] md:h-[550px] overflow-hidden">
       
-      {/* Background Image */}
-      <div
-        className="absolute inset-0 bg-cover bg-center"
-        style={{
-          backgroundImage:
-            "url('https://images.unsplash.com/photo-1586528116493-7c2b56e39acc?auto=format&fit=crop&w=1920&q=80')",
-        }}
-      />
+      {/* Background Slides */}
+      {images.map((img, index) => (
+        <div
+          key={index}
+          className={`absolute inset-0 bg-cover bg-center transition-opacity duration-1000 ${
+            index === current ? "opacity-100" : "opacity-0"
+          }`}
+          style={{ backgroundImage: `url(${img})` }}
+        />
+      ))}
 
       {/* Overlay */}
       <div className="absolute inset-0 bg-black/40"></div>
@@ -31,7 +49,6 @@ const HeroBanner = () => {
           </button>
         </div>
       </div>
-
     </section>
   );
 };

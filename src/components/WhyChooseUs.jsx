@@ -2,16 +2,16 @@ import React from "react";
 
 const WhyChooseUs = () => {
   return (
-    <section className="w-screen bg-white py-10">
+    <section className="w-screen bg-white py-2">
       <div className="max-w-7xl mx-auto px-6">
         
         {/* Heading */}
-        <h2 className="text-3xl md:text-4xl font-bold text-center mb-16">
+        <h2 className="text-3xl md:text-4xl font-bold text-center mb-14">
           Why Choose <span className="text-green-500">Us</span>
         </h2>
 
         {/* Cards */}
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-10 mb-24">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-10 mb-18">
           
           {/* Card 1 */}
           <div className="bg-white rounded-2xl shadow-sm p-8 text-center hover:shadow-md transition">
@@ -73,7 +73,7 @@ const WhyChooseUs = () => {
 
         {/* Bottom Stats */}
         <h3 className="text-center text-3xl font-bold text-green-500 mb-12">
-          First Track Superiority
+          Suchi Courier Superiority
         </h3>
 
         <div className="grid grid-cols-1 sm:grid-cols-3 gap-8">

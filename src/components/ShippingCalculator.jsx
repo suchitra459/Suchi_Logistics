@@ -197,7 +197,7 @@ const ShippingCalculator = () => {
       </section>
 
       {/* ================= NEWSLETTER SECTION ================= */}
-      <section className="w-screen bg-[#6b80c9] py-24">
+      <section className="w-screen bg-[#6b80c9] py-20">
         <div className="max-w-4xl mx-auto px-6 text-center text-white">
           <h2 className="text-3xl md:text-4xl font-bold mb-4">
             Stay Updated with Suchi Courier
@@ -215,7 +215,7 @@ const ShippingCalculator = () => {
               className="w-full sm:w-80 px-5 py-3 rounded-md text-gray-700 outline-none"
             />
 
-            <button className="bg-blue-500 hover:bg-blue-600 transition px-8 py-3 rounded-md text-white font-medium">
+            <button className="bg-blue-500 hover:bg-blue-600 transition px-5 py-3 rounded-md text-white font-medium">
               Subscribe
             </button>
           </div>

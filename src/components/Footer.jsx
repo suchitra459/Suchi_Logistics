@@ -80,7 +80,7 @@ const Footer = () => {
       >
         <div className="max-w-7xl mx-auto px-10 py-4 flex flex-col md:flex-row justify-between gap-4">
           <p>
-            Copyright © 2024{" "}
+            Copyright © 2026{" "}
             <span className="text-white font-medium">
               Suchi Courier 
             </span>

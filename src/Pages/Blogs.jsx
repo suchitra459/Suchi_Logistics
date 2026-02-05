@@ -26,7 +26,7 @@ const Blogs = () => {
     <div className="w-full">
       {/* Hero Section */}
       <div
-        className="relative h-[280px] flex items-center justify-center bg-cover bg-center"
+        className="relative h-[450px] flex items-center justify-center bg-cover bg-center"
         style={{
           backgroundImage:
             "url('')",
