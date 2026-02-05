@@ -3,14 +3,12 @@ import React from "react";
 const Footer = () => {
   return (
     <>
-      {/* ===== MAIN FOOTER ===== */}
       <footer
         className="relative left-1/2 right-1/2 w-screen -ml-[50vw] -mr-[50vw]
                    bg-gray-200 pt-16 pb-12"
       >
         <div className="max-w-7xl mx-auto px-10 grid grid-cols-1 md:grid-cols-4 gap-12">
 
-          {/* LOGO & ABOUT */}
           <div>
             <img
               src="/images/logo.png"
