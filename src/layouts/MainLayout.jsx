@@ -2,7 +2,7 @@ import React from "react";
 import { Outlet } from "react-router-dom";
 import Navbar from "../components/navbar";
 import LetsConnect from "../components/LetsConnect";
-import Footer from "../components/Footer";
+import Footer from "../components/footer";
 
 const MainLayout = () => {
   return (
