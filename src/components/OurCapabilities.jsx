@@ -1,3 +1,4 @@
+import { Images } from "lucide-react";
 import React from "react";
 
 const OurCapabilities = () => {
@@ -97,17 +98,17 @@ const OurCapabilities = () => {
           {/* Right Images */}
           <div className="grid grid-cols-2 gap-4">
             <img
-              src="/images/logistics1.jpg"
+              src="/images/image5.jpg"
               alt="Logistics"
               className="rounded-lg object-cover h-44 w-full"
             />
             <img
-              src="/images/logistics2.jpg"
+              src="/images/image7.jpg"
               alt="Warehouse"
               className="rounded-lg object-cover h-44 w-full"
             />
             <img
-              src="/images/logistics3.jpg"
+              src="/images/image2.jpg"
               alt="Storage"
               className="rounded-lg object-cover h-44 w-full col-span-2"
             />

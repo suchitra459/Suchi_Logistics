@@ -5,7 +5,7 @@ const Blogs = () => {
     {
       id: 1,
       image:
-        "https://images.unsplash.com/photo-1601584115197-04ecc0da31d7",
+        "/images/image7.jpg",
       title: "How to Optimize Shipping Routes for Efficiency",
       date: "September 10, 2024",
       desc:
@@ -14,7 +14,7 @@ const Blogs = () => {
     {
       id: 2,
       image:
-        "https://images.unsplash.com/photo-1586528116311-ad8dd3c8310d",
+      "/images/image4.jpg",
       title: "The Future of Logistics with AI and Automation",
       date: "August 25, 2024",
       desc:
@@ -29,7 +29,7 @@ const Blogs = () => {
         className="relative h-[450px] flex items-center justify-center bg-cover bg-center"
         style={{
           backgroundImage:
-            "url('')",
+            "url('/images/Blogs.jpg')",
         }}
       >
         <div className="absolute inset-0 bg-black/50"></div>

@@ -1,9 +1,10 @@
 import React, { useEffect, useState } from "react";
+import { Link } from "react-router-dom";
 
 const images = [
-  "https://images.unsplash.com/photo-1586528116493-7c2b56e39acc?auto=format&fit=crop&w=1920&q=80",
-  "https://images.unsplash.com/photo-1600891964599-f61ba0e24092?auto=format&fit=crop&w=1920&q=80",
-  "https://images.unsplash.com/photo-1566576912321-d58ddd7a6088?auto=format&fit=crop&w=1920&q=80",
+  "/images/herobanner1.jpg",
+  "/images/herobanner2.jpg",
+  "/images/herobanner3.jpg",
 ];
 
 const HeroBanner = () => {
@@ -18,7 +19,7 @@ const HeroBanner = () => {
   }, []);
 
   return (
-    <section className="relative w-screen h-[420px] md:h-[550px] overflow-hidden">
+    <section className="relative w-screen h-[400px] md:h-[650px] overflow-hidden">
       
       {/* Background Slides */}
       {images.map((img, index) => (
@@ -44,9 +45,9 @@ const HeroBanner = () => {
           <button className="px-6 py-3 bg-gray-800 text-white rounded-md hover:bg-gray-700 transition">
             DISCOVER MORE
           </button>
-          <button className="px-6 py-3 bg-green-500 text-white rounded-md hover:bg-green-600 transition">
+          <Link to="/login" className="px-6 py-3 bg-green-500 text-white rounded-md hover:bg-green-600 transition">
             LOGIN
-          </button>
+          </Link>
         </div>
       </div>
     </section>

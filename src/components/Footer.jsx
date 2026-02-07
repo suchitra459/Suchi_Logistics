@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const Footer = () => {
   return (
@@ -19,9 +20,10 @@ const Footer = () => {
               Suchi Courier delivers fast, reliable, and seamless logistics
               solutions, ensuring timely and secure shipments worldwide.
             </p>
-            <button className="bg-gray-600 text-white px-6 py-2 rounded-full text-sm hover:bg-gray-700">
-              About Us
-            </button>
+            <Link to ='/About' className="bg-gray-600 text-white px-6 py-2 rounded-full text-sm hover:bg-gray-700">
+            About Us
+            </Link>
+             
           </div>
 
           {/* CONTACT US */}
@@ -31,8 +33,8 @@ const Footer = () => {
               <li className="flex gap-3">
                 📍 BMC Bhawani Mall, Saheed Nagar Bhubaneswar, Odisha-751007.
               </li>
-              <li className="flex gap-3">📞 +91-8240742313</li>
-              <li className="flex gap-3">📞 +91-9040170727</li>
+              <li className="flex gap-3">📞 +91-1234567890</li>
+              <li className="flex gap-3">📞 +91-1234567890</li>
               <li className="flex gap-3">✉️ Email: info@SuchiCourier.site</li>
             </ul>
           </div>

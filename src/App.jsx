@@ -8,7 +8,8 @@ import About from './Pages/About.jsx';
 import ContactUs from './Pages/ContactUs.jsx';
 import Pricing from './Pages/Pricing.jsx';
 import Tracking from './Pages/Tracking.jsx';
-
+import Login from './Pages/login.jsx';
+import SignIn from './Pages/SignIn.jsx';
 function App() {
 
   return (
@@ -22,6 +23,8 @@ function App() {
         <Route path='/ContactUs' element={<ContactUs/>}/>
         <Route path='/Pricing' element={<Pricing/>}/>
         <Route path='/Tracking' element={<Tracking/>}/>
+        <Route path='/Login' element={<Login/>}/>
+        <Route path='/SignIn' element={<SignIn/>}/>
 
          
      </Route>

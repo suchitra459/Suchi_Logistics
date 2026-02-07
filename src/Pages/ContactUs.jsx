@@ -19,7 +19,7 @@ const ContactUs = () => {
         className="h-[500px] bg-cover bg-center flex items-center justify-center"
         style={{
           backgroundImage:
-            "linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('https://images.unsplash.com/photo-1521791136064-7986c2920216')",
+            "linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('images/contact.jpg')",
         }}
       >
         <h1 className="text-white text-4xl font-semibold">Contact Us</h1>
@@ -105,17 +105,17 @@ const ContactUs = () => {
 
               <p className="flex gap-3">
                 <FaPhoneAlt className="text-blue-500 mt-1" />
-                +91-8240742313
+                +91-1234567890
               </p>
 
               <p className="flex gap-3">
                 <FaWhatsapp className="text-blue-500 mt-1" />
-                +91-9040170727
+                +91-1234567890
               </p>
 
               <p className="flex gap-3">
                 <FaEnvelope className="text-blue-500 mt-1" />
-                info@firsttrack.site
+                info@SuchiCourier.site
               </p>
             </div>
 

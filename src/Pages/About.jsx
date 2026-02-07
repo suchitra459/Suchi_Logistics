@@ -7,7 +7,7 @@ const About = () => {
       {/* Banner */}
       <section className="relative w-full h-[320px] md:h-[380px]">
         <img
-          src="https://images.unsplash.com/photo-1504384308090-c894fdcc538d?auto=format&fit=crop&w=1920&q=80"
+          src="/images/Aboutus.jpg"
           alt="About Banner"
           className="w-full h-full object-cover"
         />

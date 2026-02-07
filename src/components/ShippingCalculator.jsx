@@ -187,7 +187,7 @@ const ShippingCalculator = () => {
             {/* RIGHT IMAGE */}
             <div className="flex justify-center">
               <img
-                src="/images/shipping-illustration.png"
+                src="/images/calculation.png"
                 alt="Shipping Illustration"
                 className="max-w-md w-full"
               />

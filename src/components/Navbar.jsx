@@ -27,9 +27,9 @@ const Navbar = () => {
         </ul>
         
 
-        <button className="hidden md:block bg-black/40 text-white px-5 py-2 rounded-md hover:bg-black">
-          SignIn
-        </button>
+        <Link to='/SignIn' className="hidden md:block bg-black/40 text-white px-5 py-2 rounded-md hover:bg-black">
+        SignIn
+        </Link>
 
         <button
           onClick={() => setOpen(!open)}
