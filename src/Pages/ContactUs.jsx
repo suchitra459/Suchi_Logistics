@@ -16,7 +16,7 @@ const ContactUs = () => {
     <div className="w-full">
       {/* ===== Hero Section ===== */}
       <div
-        className="h-[500px] bg-cover bg-center flex items-center justify-center"
+        className="h-[750px] bg-cover bg-center flex items-center justify-center"
         style={{
           backgroundImage:
             "linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('images/contact.jpg')",

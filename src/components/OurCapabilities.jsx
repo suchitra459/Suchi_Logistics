@@ -12,7 +12,7 @@ const OurCapabilities = () => {
 
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
           {/* Card 1 */}
-          <div className="bg-white rounded-xl shadow-md p-8 text-center hover:shadow-lg transition">
+          <div className="bg-blue-50  rounded-xl shadow-md p-8 text-center hover:shadow-lg transition">
             <div className="text-4xl mb-4">🌍</div>
             <h3 className="text-lg font-semibold mb-3">
               International Shipping
@@ -24,7 +24,7 @@ const OurCapabilities = () => {
           </div>
 
           {/* Card 2 */}
-          <div className="bg-white rounded-xl shadow-md p-8 text-center hover:shadow-lg transition">
+          <div className="bg-blue-50 rounded-xl shadow-md p-8 text-center hover:shadow-lg transition">
             <div className="text-4xl mb-4">🏢</div>
             <h3 className="text-lg font-semibold mb-3">
               Smart Warehousing
@@ -36,7 +36,7 @@ const OurCapabilities = () => {
           </div>
 
           {/* Card 3 */}
-          <div className="bg-white rounded-xl shadow-md p-8 text-center hover:shadow-lg transition">
+          <div className="bg-blue-50 rounded-xl shadow-md p-8 text-center hover:shadow-lg transition">
             <div className="text-4xl mb-4">🚢</div>
             <h3 className="text-lg font-semibold mb-3">
               Air & Sea Cargo
@@ -48,7 +48,7 @@ const OurCapabilities = () => {
           </div>
 
           {/* Card 4 */}
-          <div className="bg-white rounded-xl shadow-md p-8 text-center hover:shadow-lg transition">
+          <div className="bg-blue-50  rounded-xl shadow-md p-8 text-center hover:shadow-lg transition">
             <div className="text-4xl mb-4">📦</div>
             <h3 className="text-lg font-semibold mb-3">
               Supply Chain Management
@@ -62,12 +62,12 @@ const OurCapabilities = () => {
       </div>
 
       {/* ===== BOTTOM: MISSION / VISION / VALUES ===== */}
-      <div className="w-full bg-green-50 mt-24 py-15">
+      <div className="w-full bg-blue-50 mt-24 py-15 ">
         <div className="max-w-7xl mx-auto px-6 grid grid-cols-1 lg:grid-cols-2 gap-12 items-start">
           
           {/* Left Content */}
           <div>
-            <h3 className="text-green-600 font-semibold mb-2">
+            <h3 className="text-blue-600 font-semibold mb-2">
               Our Mission
             </h3>
             <p className="text-gray-700 mb-6">
@@ -76,7 +76,7 @@ const OurCapabilities = () => {
               across the globe with confidence and reliability.
             </p>
 
-            <h3 className="text-green-600 font-semibold mb-2">
+            <h3 className="text-blue-600 font-semibold mb-2">
               Our Vision
             </h3>
             <p className="text-gray-700 mb-6">
@@ -85,7 +85,7 @@ const OurCapabilities = () => {
               every step of our operations.
             </p>
 
-            <h3 className="text-green-600 font-semibold mb-2">
+            <h3 className="text-blue-600 font-semibold mb-2">
               Our Values
             </h3>
             <p className="text-gray-700">
@@ -96,14 +96,14 @@ const OurCapabilities = () => {
           </div>
 
           {/* Right Images */}
-          <div className="grid grid-cols-2 gap-4">
-            <img
+          <div className=" grid grid-cols-2 gap-4 ">
+            <img 
               src="/images/image5.jpg"
               alt="Logistics"
-              className="rounded-lg object-cover h-44 w-full"
+              className="rounded-lg object-cover h-44 w-full "
             />
             <img
-              src="/images/image7.jpg"
+              src="/images/image8.jpg"
               alt="Warehouse"
               className="rounded-lg object-cover h-44 w-full"
             />

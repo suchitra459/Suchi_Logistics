@@ -5,7 +5,7 @@ const About = () => {
   return (
     <div className="w-full">
       {/* Banner */}
-      <section className="relative w-full h-[320px] md:h-[380px]">
+      <section className="relative w-full h-[650px] md:h-[700px]">
         <img
           src="/images/Aboutus.jpg"
           alt="About Banner"
@@ -19,7 +19,7 @@ const About = () => {
       </section>
 
       {/* Description */}
-      <section className="bg-white py-16 px-6">
+      <section className="bg-blue-50 py-16 px-6">
         <div className="max-w-4xl mx-auto text-center text-gray-700 leading-relaxed">
           <p>
             <span className="font-semibold text-blue-900">Suchi Courier</span>, a
@@ -98,7 +98,7 @@ const About = () => {
     <div className="mt-14 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
       
       {/* International Shipping */}
-      <div className="bg-white rounded-xl p-8 shadow-sm hover:shadow-md transition">
+      <div className="bg-blue-50 rounded-xl p-8 shadow-sm hover:shadow-md transition">
         <div className="text-4xl mb-4">🌍</div>
         <h3 className="text-lg font-semibold mb-3">
           International Shipping
@@ -110,7 +110,7 @@ const About = () => {
       </div>
 
       {/* Smart Warehousing */}
-      <div className="bg-white rounded-xl p-8 shadow-sm hover:shadow-md transition">
+      <div className="bg-blue-50 rounded-xl p-8 shadow-sm hover:shadow-md transition">
         <div className="text-4xl mb-4">🏢</div>
         <h3 className="text-lg font-semibold mb-3">
           Smart Warehousing
@@ -122,19 +122,19 @@ const About = () => {
       </div>
 
       {/* Air & Sea Cargo */}
-      <div className="bg-white rounded-xl p-8 shadow-sm hover:shadow-md transition">
+      <div className="bg-blue-50 rounded-xl p-8 shadow-sm hover:shadow-md transition">
         <div className="text-4xl mb-4">🚢</div>
         <h3 className="text-lg font-semibold mb-3">
           Air & Sea Cargo
         </h3>
         <p className="text-gray-600 text-sm leading-relaxed">
           Flexible cargo transport options via air and sea, ensuring
-          speed, safety, and cost-effectiveness.
+          speed, safety, and cost-effectivenes.
         </p>
       </div>
 
       {/* Supply Chain Management */}
-      <div className="bg-white rounded-xl p-8 shadow-sm hover:shadow-md transition">
+      <div className="bg-blue-50 rounded-xl p-8 shadow-sm hover:shadow-md transition">
         <div className="text-4xl mb-4">📦</div>
         <h3 className="text-lg font-semibold mb-3">
           Supply Chain Management
@@ -149,7 +149,7 @@ const About = () => {
   </div>
 </section>
 {/* Meet Our Team */}
-<section className="bg-gray-100 py-10 px-6">
+<section className="bg-blue-50 py-10 px-6">
   <div className="max-w-6xl mx-auto text-center">
     <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-12">
       Meet Our Team
@@ -180,7 +180,7 @@ const About = () => {
     <div className="mt-14 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
       
       {/* Trusted Reliability */}
-      <div className="bg-white rounded-xl p-8 shadow-sm hover:shadow-md transition">
+      <div className="bg-blue-50 rounded-xl p-8 shadow-sm hover:shadow-md transition">
         <div className="text-4xl mb-4">🤝</div>
         <h3 className="text-lg font-semibold mb-3">
           Trusted Reliability
@@ -192,7 +192,7 @@ const About = () => {
       </div>
 
       {/* Secure Handling */}
-      <div className="bg-white rounded-xl p-8 shadow-sm hover:shadow-md transition">
+      <div className="bg-blue-50 rounded-xl p-8 shadow-sm hover:shadow-md transition">
         <div className="text-4xl mb-4">🔒</div>
         <h3 className="text-lg font-semibold mb-3">
           Secure Handling
@@ -204,7 +204,7 @@ const About = () => {
       </div>
 
       {/* On-Time */}
-      <div className="bg-white rounded-xl p-8 shadow-sm hover:shadow-md transition">
+      <div className="bg-blue-50 rounded-xl p-8 shadow-sm hover:shadow-md transition">
         <div className="text-4xl mb-4">⏱️</div>
         <h3 className="text-lg font-semibold mb-3">
           On-Time Every Time
@@ -216,7 +216,7 @@ const About = () => {
       </div>
 
       {/* Support */}
-      <div className="bg-white rounded-xl p-8 shadow-sm hover:shadow-md transition">
+      <div className="bg-blue-50 rounded-xl p-8 shadow-sm hover:shadow-md transition">
         <div className="text-4xl mb-4">🎧</div>
         <h3 className="text-lg font-semibold mb-3">
           Round-the-Clock Assistance

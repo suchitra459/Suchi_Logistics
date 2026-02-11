@@ -4,7 +4,7 @@ const LetsConnect = () => {
   return (
     <section
       className="relative left-1/2 right-1/2 w-screen -ml-[50vw] -mr-[50vw]
-                 bg-[#1f3c88] py-20 text-center"
+                 bg-gradient-to-r from-[#0f013d] to-[#03459b] py-20 text-center"
     >
       <h2 className="text-3xl font-bold text-white mb-4">
         Let&apos;s Connect!

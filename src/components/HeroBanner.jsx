@@ -19,7 +19,7 @@ const HeroBanner = () => {
   }, []);
 
   return (
-    <section className="relative w-screen h-[400px] md:h-[650px] overflow-hidden">
+    <section className="relative w-screen h-[500px] md:h-[700px] overflow-hidden mt-2"> 
       
       {/* Background Slides */}
       {images.map((img, index) => (
@@ -45,7 +45,7 @@ const HeroBanner = () => {
           <button className="px-6 py-3 bg-gray-800 text-white rounded-md hover:bg-gray-700 transition">
             DISCOVER MORE
           </button>
-          <Link to="/login" className="px-6 py-3 bg-green-500 text-white rounded-md hover:bg-green-600 transition">
+          <Link to="/login" className="px-6 py-3 bg-blue-600 text-white rounded-md hover:bg-blue-600 transition">
             LOGIN
           </Link>
         </div>

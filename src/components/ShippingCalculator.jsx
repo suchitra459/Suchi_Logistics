@@ -173,54 +173,31 @@ const ShippingCalculator = () => {
               <div className="flex gap-4 mt-8">
                 <button
                   onClick={addBox}
-                  className="border border-green-500 text-green-600 px-6 py-2 rounded-full hover:bg-green-50"
+                  className="border border-blue-800 text-blue-600 px-6 py-2 rounded-full hover:bg-blue-50"
                 >
                   Add More Boxes
                 </button>
 
-                <button className="bg-green-500 text-white px-6 py-2 rounded-full hover:bg-green-600">
+                <button className="bg-blue-500 text-white px-6 py-2 rounded-full hover:bg-blue-600">
                   Submit and Compare
                 </button>
               </div>
             </div>
 
             {/* RIGHT IMAGE */}
-            <div className="flex justify-center">
-              <img
-                src="/images/calculation.png"
-                alt="Shipping Illustration"
-                className="max-w-md w-full"
-              />
-            </div>
+           <div className="flex justify-center">
+  <img
+    src="/images/calculation.png"
+    alt="Shipping Illustration"
+    className="max-w-md w-full animate-float-gap transition-transform duration-500 hover:scale-105"
+  />
+</div>
+
           </div>
         </div>
       </section>
 
-      {/* ================= NEWSLETTER SECTION ================= */}
-      <section className="w-screen bg-[#6b80c9] py-20">
-        <div className="max-w-4xl mx-auto px-6 text-center text-white">
-          <h2 className="text-3xl md:text-4xl font-bold mb-4">
-            Stay Updated with Suchi Courier
-          </h2>
-
-          <p className="text-white/90 mb-10">
-            Subscribe to our newsletter and get the latest updates on logistics
-            and shipping.
-          </p>
-
-          <div className="flex flex-col sm:flex-row justify-center gap-4">
-            <input
-              type="email"
-              placeholder="Enter your email address"
-              className="w-full sm:w-80 px-5 py-3 rounded-md text-gray-700 outline-none"
-            />
-
-            <button className="bg-blue-500 hover:bg-blue-600 transition px-5 py-3 rounded-md text-white font-medium">
-              Subscribe
-            </button>
-          </div>
-        </div>
-      </section>
+    
     </>
   );
 };

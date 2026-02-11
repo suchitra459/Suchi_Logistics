@@ -26,7 +26,7 @@ const Blogs = () => {
     <div className="w-full">
       {/* Hero Section */}
       <div
-        className="relative h-[450px] flex items-center justify-center bg-cover bg-center"
+        className="relative h-[700px] flex items-center justify-center bg-cover bg-center"
         style={{
           backgroundImage:
             "url('/images/Blogs.jpg')",
@@ -39,55 +39,57 @@ const Blogs = () => {
       </div>
 
       {/* Blog Cards */}
-      <div className="max-w-6xl mx-auto px-8 py-10">
-        <div className="grid md:grid-cols-2 gap-10">
-          {blogs.map((blog) => (
-            <div
-              key={blog.id}
-              className="bg-white rounded-lg shadow-md overflow-hidden"
-            >
-              <img
-                src={blog.image}
-                alt={blog.title}
-                className="h-52 w-full object-cover"
-              />
+      {/* Blog Cards */}
+<div className="max-w-5xl mx-auto px-6 py-10">
+  <div className="grid sm:grid-cols-1 md:grid-cols-2 gap-8 justify-center">
+    {blogs.map((blog) => (
+      <div
+        key={blog.id}
+        className="bg-white rounded-lg shadow-md overflow-hidden hover:shadow-lg transition"
+      >
+        <img
+          src={blog.image}
+          alt={blog.title}
+          className="h-44 w-full object-cover"
+        />
 
-              <div className="p-6">
-                <h3 className="text-xl font-semibold mb-2">
-                  {blog.title}
-                </h3>
+        <div className="p-5">
+          <h3 className="text-lg font-semibold mb-1">
+            {blog.title}
+          </h3>
 
-                <p className="text-sm text-gray-500 mb-4">
-                  {blog.date}
-                </p>
+          <p className="text-xs text-gray-500 mb-3">
+            {blog.date}
+          </p>
 
-                <p className="text-gray-600 text-sm mb-6">
-                  {blog.desc}
-                </p>
+          <p className="text-gray-600 text-sm mb-4">
+            {blog.desc}
+          </p>
 
-                <button className="text-blue-600 text-sm font-medium hover:underline">
-                  Read More →
-                </button>
-              </div>
-            </div>
-          ))}
-        </div>
-
-        {/* Pagination */}
-        <div className="flex items-center justify-between mt-16">
-          <button className="px-4 py-2 bg-gray-200 rounded text-sm">
-            Previous
-          </button>
-
-          <span className="text-sm text-gray-600">
-            Page 1 of 1
-          </span>
-
-          <button className="px-4 py-2 bg-gray-200 rounded text-sm">
-            Next
+          <button className="text-blue-600 text-sm font-medium hover:underline">
+            Read More →
           </button>
         </div>
       </div>
+    ))}
+  </div>
+
+  {/* Pagination */}
+  <div className="flex items-center justify-between mt-14">
+    <button className="px-3 py-1.5 bg-gray-200 rounded text-sm">
+      Previous
+    </button>
+
+    <span className="text-sm text-gray-600">
+      Page 1 of 1
+    </span>
+
+    <button className="px-3 py-1.5 bg-gray-200 rounded text-sm">
+      Next
+    </button>
+  </div>
+</div>
+
     </div>
   );
 };

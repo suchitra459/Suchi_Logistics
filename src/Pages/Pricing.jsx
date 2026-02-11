@@ -23,8 +23,8 @@ const Pricing = () => {
   };
 
   return (
-    <div className="min-h-screen bg-[#f2fff7] py-22 px-15">
-      <div className="max-w-5xl mx-auto bg-[#f2fff7]">
+    <div className="min-h-screen bg-blue-50 py-22 px-15">
+      <div className="max-w-5xl mx-auto bg-blue-50">
         <h2 className="text-2xl font-semibold text-center mb-10">
           Calculate Your Shipping Price
         </h2>

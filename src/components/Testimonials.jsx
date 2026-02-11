@@ -2,7 +2,7 @@ import React from "react";
 
 const Testimonials = () => {
   return (
-    <section className="w-full bg-green-50 py-15">
+    <section className="w-full bg-blue-50 py-16">
       <div className="w-full px-8 text-center">
         
         {/* Heading */}
@@ -11,12 +11,12 @@ const Testimonials = () => {
         </h2>
 
         {/* Cards */}
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-10 max-w-5xl mx-auto">
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-6xl mx-auto">
           
           {/* Card 1 */}
-          <div className="bg-white rounded-xl shadow-md px-8 py-10">
+          <div className="bg-white rounded-xl shadow-md px-8 py-10 hover:shadow-lg transition">
             <div className="flex justify-center mb-6">
-              <div className="w-16 h-16 rounded-full bg-gray-400 flex items-center justify-center text-white text-2xl">
+              <div className="w-16 h-16 rounded-full bg-sky-200 flex items-center justify-center text-2xl">
                 👨
               </div>
             </div>
@@ -30,9 +30,9 @@ const Testimonials = () => {
           </div>
 
           {/* Card 2 */}
-          <div className="bg-white rounded-xl shadow-md px-8 py-10">
+          <div className="bg-white rounded-xl shadow-md px-8 py-10 hover:shadow-lg transition">
             <div className="flex justify-center mb-6">
-              <div className="w-16 h-16 rounded-full bg-sky-400 flex items-center justify-center text-white text-2xl">
+              <div className="w-16 h-16 rounded-full bg-sky-200 flex items-center justify-center text-2xl">
                 👩
               </div>
             </div>
@@ -43,6 +43,22 @@ const Testimonials = () => {
             </p>
 
             <p className="font-semibold text-black">- Suchitra</p>
+          </div>
+
+          {/* Card 3 */}
+          <div className="bg-white rounded-xl shadow-md px-8 py-10 hover:shadow-lg transition">
+            <div className="flex justify-center mb-6">
+              <div className="w-16 h-16 rounded-full bg-sky-200 flex items-center justify-center text-2xl">
+                👨‍💼
+              </div>
+            </div>
+
+            <p className="text-gray-600 italic mb-6">
+              “Fast delivery and excellent customer support. I trust Suchi Courier
+              for all my shipments.”
+            </p>
+
+            <p className="font-semibold text-black">- Rahul</p>
           </div>
 
         </div>

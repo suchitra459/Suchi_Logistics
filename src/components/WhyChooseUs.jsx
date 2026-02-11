@@ -7,15 +7,15 @@ const WhyChooseUs = () => {
         
         {/* Heading */}
         <h2 className="text-3xl md:text-4xl font-bold text-center mb-14">
-          Why Choose <span className="text-green-500">Us</span>
+          Why Choose <span className="text-blue-500">Us</span>
         </h2>
 
         {/* Cards */}
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-10 mb-18">
           
           {/* Card 1 */}
-          <div className="bg-white rounded-2xl shadow-sm p-8 text-center hover:shadow-md transition">
-            <div className="w-16 h-16 mx-auto mb-6 rounded-full bg-green-100 flex items-center justify-center text-3xl">
+          <div className="bg-blue-50  rounded-2xl shadow-sm p-8 text-center hover:shadow-md transition">
+            <div className="w-16 h-16 mx-auto mb-6 rounded-full bg-white flex items-center justify-center text-3xl">
               🤝
             </div>
             <h3 className="font-semibold text-lg mb-3">
@@ -28,8 +28,8 @@ const WhyChooseUs = () => {
           </div>
 
           {/* Card 2 */}
-          <div className="bg-white rounded-2xl shadow-sm p-8 text-center hover:shadow-md transition">
-            <div className="w-16 h-16 mx-auto mb-6 rounded-full bg-green-100 flex items-center justify-center text-3xl">
+          <div className="bg-blue-50  rounded-2xl shadow-sm p-8 text-center hover:shadow-md transition">
+            <div className="w-16 h-16 mx-auto mb-6 rounded-full bg-white flex items-center justify-center text-3xl">
               📦
             </div>
             <h3 className="font-semibold text-lg mb-3">
@@ -42,8 +42,8 @@ const WhyChooseUs = () => {
           </div>
 
           {/* Card 3 */}
-          <div className="bg-white rounded-2xl shadow-sm p-8 text-center hover:shadow-md transition">
-            <div className="w-16 h-16 mx-auto mb-6 rounded-full bg-green-100 flex items-center justify-center text-3xl">
+          <div className="bg-blue-50  rounded-2xl shadow-sm p-8 text-center hover:shadow-md transition">
+            <div className="w-16 h-16 mx-auto mb-6 rounded-full bg-white flex items-center justify-center text-3xl">
               🚚
             </div>
             <h3 className="font-semibold text-lg mb-3">
@@ -56,8 +56,8 @@ const WhyChooseUs = () => {
           </div>
 
           {/* Card 4 */}
-          <div className="bg-white rounded-2xl shadow-sm p-8 text-center hover:shadow-md transition">
-            <div className="w-16 h-16 mx-auto mb-6 rounded-full bg-green-100 flex items-center justify-center text-3xl">
+          <div className="bg-blue-50  rounded-2xl shadow-sm p-8 text-center hover:shadow-md transition">
+            <div className="w-16 h-16 mx-auto mb-6 rounded-full bg-white flex items-center justify-center text-3xl">
               🎧
             </div>
             <h3 className="font-semibold text-lg mb-3">
@@ -72,23 +72,23 @@ const WhyChooseUs = () => {
         </div>
 
         {/* Bottom Stats */}
-        <h3 className="text-center text-3xl font-bold text-green-500 mb-12">
+        <h3 className="text-center text-3xl font-bold text-blue-500 mb-12">
           Suchi Courier Superiority
         </h3>
 
         <div className="grid grid-cols-1 sm:grid-cols-3 gap-8">
           
-          <div className="bg-gray-100 rounded-xl py-8 text-center shadow-sm">
-            <h4 className="text-3xl font-bold text-black">10K+</h4>
+          <div className="bg-blue-50 rounded-xl py-8 text-center shadow-sm">
+            <h4 className="text-3xl font-bold text-black">15K+</h4>
             <p className="text-gray-700 mt-2">Trusted Clients</p>
           </div>
 
-          <div className="bg-gray-100 rounded-xl py-8 text-center shadow-sm">
-            <h4 className="text-3xl font-bold text-black">20K+</h4>
+          <div className="bg-blue-50 rounded-xl py-8 text-center shadow-sm">
+            <h4 className="text-3xl font-bold text-black">30K+</h4>
             <p className="text-gray-700 mt-2">Orders Delivered</p>
           </div>
 
-          <div className="bg-gray-100 rounded-xl py-8 text-center shadow-sm">
+          <div className="bg-blue-50 rounded-xl py-8 text-center shadow-sm">
             <h4 className="text-3xl font-bold text-black">25+</h4>
             <p className="text-gray-700 mt-2">Sellers</p>
           </div>

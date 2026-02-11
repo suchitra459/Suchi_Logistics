@@ -53,7 +53,7 @@ const SignIn = () => {
               value={formData.email}
               onChange={handleChange}
               placeholder="Enter your email"
-              className="w-full border rounded-lg px-4 py-2 focus:outline-none focus:ring-2 focus:ring-green-500"
+              className="w-full border rounded-lg px-4 py-2 focus:outline-none focus:ring-2 focus:ring-blue-500"
             />
           </div>
 
@@ -67,7 +67,7 @@ const SignIn = () => {
               value={formData.password}
               onChange={handleChange}
               placeholder="Enter your password"
-              className="w-full border rounded-lg px-4 py-2 focus:outline-none focus:ring-2 focus:ring-green-500"
+              className="w-full border rounded-lg px-4 py-2 focus:outline-none focus:ring-2 focus:ring-blue-500"
             />
           </div>
 
@@ -82,7 +82,7 @@ const SignIn = () => {
               value={formData.confirmPassword}
               onChange={handleChange}
               placeholder="Confirm your password"
-              className="w-full border rounded-lg px-4 py-2 focus:outline-none focus:ring-2 focus:ring-green-500"
+              className="w-full border rounded-lg px-4 py-2 focus:outline-none focus:ring-2 focus:ring-blue-500"
             />
           </div>
 
@@ -92,7 +92,7 @@ const SignIn = () => {
               <input type="checkbox" />
               Remember me
             </label>
-            <a href="#" className="text-green-600 hover:underline">
+            <a href="#" className="text-blue-600 hover:underline">
               Forgot password?
             </a>
           </div>
@@ -100,7 +100,7 @@ const SignIn = () => {
           {/* Button */}
           <button
             type="submit"
-            className="w-full bg-green-600 hover:bg-green-700 text-white py-2 rounded-lg font-semibold transition"
+            className="w-full bg-blue-600 hover:bg-blue-700 text-white py-2 rounded-lg font-semibold transition"
           >
             Sign In
           </button>
@@ -109,7 +109,7 @@ const SignIn = () => {
         {/* Signup Link */}
         <p className="text-center text-sm text-gray-500 mt-6">
           Don’t have an account?{" "}
-          <a href="/signup" className="text-green-600 font-medium hover:underline">
+          <a href="/signup" className="text-blue-600 font-medium hover:underline">
             Sign Up
           </a>
         </p>
