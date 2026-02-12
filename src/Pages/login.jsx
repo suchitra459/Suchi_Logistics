@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { Link } from "react-router-dom";
 
 const Login = () => {
   const [form, setForm] = useState({
@@ -26,7 +27,7 @@ const Login = () => {
   };
 
   return (
-    <div className="min-h-screen flex items-center justify-center bg-gray-100 px-4">
+    <div className="min-h-screen flex items-center justify-center bg-blue-50 px-4">
       {/* Login Card */}
       <div className="w-full max-w-md bg-white shadow-lg rounded-2xl p-8">
         
@@ -81,7 +82,7 @@ const Login = () => {
         <p className="text-center text-sm text-gray-500 mt-4">
           Don't have an account?{" "}
           <span className="text-blue-600 cursor-pointer hover:underline">
-            Sign Up
+            <Link to="/Register">Register</Link>
           </span>
         </p>
       </div>

@@ -1,12 +1,12 @@
 import React from "react";
 
 const logos = [
-  "/images/partner1.png", // Blue arrow logo
-  "/images/razorpay.png",
-  "/images/zoho.png",
-  "/images/delhivery.png",
-  "/images/gati.png",
-  "/images/xpressbees.png",
+  "/images/bluedart.jpg", // Blue arrow logo
+  "/images/pay.png",
+  "/images/Zoho.png",
+  "/images/Delivery.jpg",
+  "/images/Gati.png",
+
 ];
 
 const TrustedPartners = () => {

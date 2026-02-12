@@ -5,7 +5,7 @@ const About = () => {
   return (
     <div className="w-full">
       {/* Banner */}
-      <section className="relative w-full h-[650px] md:h-[700px]">
+      <section className="relative w-full h-[650px] md:h-[650px] mt-22">
         <img
           src="/images/Aboutus.jpg"
           alt="About Banner"

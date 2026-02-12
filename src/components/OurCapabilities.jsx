@@ -3,7 +3,7 @@ import React from "react";
 
 const OurCapabilities = () => {
   return (
-    <section className="w-screen bg-white py-20">
+    <section className="w-screen bg-white py-10">
       {/* ===== TOP: CAPABILITIES ===== */}
       <div className="max-w-7xl mx-auto px-6">
         <h2 className="text-3xl md:text-4xl font-bold text-center mb-10 text-gray-900">

@@ -12,14 +12,14 @@ const HeroBanner = () => {
 
   useEffect(() => {
     const interval = setInterval(() => {
-      setCurrent((prev) => (prev + 1) % images.length);
+      setCurrent((prev) => (prev + 4) % images.length);
     }, 2000); // 2 seconds
 
     return () => clearInterval(interval);
   }, []);
 
   return (
-    <section className="relative w-screen h-[500px] md:h-[700px] overflow-hidden mt-2"> 
+    <section className="relative w-screen h-[500px] md:h-[600px] overflow-hidden mt-22"> 
       
       {/* Background Slides */}
       {images.map((img, index) => (

@@ -13,7 +13,7 @@ const Tracking = () => {
   };
 
   return (
-    <div className="min-h-[55vh] flex flex-col items-center justify-center bg-gradient-to-b from-gray-50 to-white">
+    <div className="min-h-[55vh] flex flex-col items-center justify-center bg-blue-50">
       
       {/* Icon + Heading */}
       <div className="flex items-center gap-3 mb-4">

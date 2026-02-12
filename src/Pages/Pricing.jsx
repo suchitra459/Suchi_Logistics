@@ -177,12 +177,12 @@ const Pricing = () => {
         <div className="flex justify-center gap-6 mt-8">
           <button
             onClick={addBox}
-            className="px-6 py-2 border border-green-500 text-green-600 rounded-full"
+            className="px-6 py-2 border border-blue-500 text-blue-600 rounded-full"
           >
             Add More Boxes
           </button>
 
-          <button className="px-6 py-2 bg-green-600 text-white rounded-full">
+          <button className="px-6 py-2 bg-blue-600 text-white rounded-full">
             Submit and Compare
           </button>
         </div>

@@ -9,7 +9,11 @@ import ContactUs from './Pages/ContactUs.jsx';
 import Pricing from './Pages/Pricing.jsx';
 import Tracking from './Pages/Tracking.jsx';
 import Login from './Pages/login.jsx';
-import SignIn from './Pages/SignIn.jsx';
+import Register from './Pages/Register.jsx';
+import FAQ from './Pages/FAQ.jsx';
+import Privacypolicy from './Pages/Privacypolicy.jsx';
+import Termofuse from './Pages/Termofuse.jsx';
+import Refund from './Pages/Refund.jsx';
 function App() {
 
   return (
@@ -24,7 +28,11 @@ function App() {
         <Route path='/Pricing' element={<Pricing/>}/>
         <Route path='/Tracking' element={<Tracking/>}/>
         <Route path='/Login' element={<Login/>}/>
-        <Route path='/SignIn' element={<SignIn/>}/>
+        <Route path='/Register' element={<Register/>}/>
+        <Route path='/FAQ' element={<FAQ/>}/>
+<Route path='/Privacypolicy' element={<Privacypolicy/>}/>
+<Route path='/Termofuse' element={<Termofuse/>}/>
+<Route path='/Refund' element={<Refund/>}/>
 
          
      </Route>

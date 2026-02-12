@@ -1,6 +1,7 @@
 import React, { useState } from "react";
+import { Link } from "react-router-dom";
 
-const SignIn = () => {
+const Register = () => {
   const [formData, setFormData] = useState({
     email: "",
     password: "",
@@ -26,14 +27,14 @@ const SignIn = () => {
   };
 
   return (
-    <div className="min-h-screen w-full flex items-center justify-center bg-gray-100 px-4">
+    <div className="min-h-screen w-full flex items-center justify-center bg-blue-50 px-4">
       
       {/* Card */}
-      <div className="w-full max-w-md bg-white shadow-lg rounded-2xl p-8">
+      <div className="w-full max-w-md bg-white shadow-lg rounded-2xl p-8 mt-20 gap-2">
         
         {/* Heading */}
         <h2 className="text-3xl font-bold text-center mb-2">
-          Sign In
+          
         </h2>
         <p className="text-gray-500 text-center mb-6">
           Welcome back! Please Register here.
@@ -42,6 +43,35 @@ const SignIn = () => {
         {/* Form */}
         <form onSubmit={handleSubmit} className="space-y-5">
           
+<div>
+            <label className="block text-sm font-medium mb-1">
+              Name
+            </label>
+            <input
+              type="text"
+              name="name"
+              value={formData.name}
+              onChange={handleChange}
+              placeholder="Enter your name"
+              className="w-full border rounded-lg px-4 py-2 focus:outline-none focus:ring-2 focus:ring-blue-500"
+            />
+          </div>
+
+          <div>
+            <label className="block text-sm font-medium mb-1">
+           Phone Number
+            </label>
+            <input
+              type="tel"
+              name="phone"
+              value={formData.phone}
+
+              onChange={handleChange}
+              placeholder="Enter your phone number"
+              className="w-full border rounded-lg px-4 py-2 focus:outline-none focus:ring-2 focus:ring-blue-500"
+            />
+          </div>
+
           {/* Email */}
           <div>
             <label className="block text-sm font-medium mb-1">
@@ -102,20 +132,20 @@ const SignIn = () => {
             type="submit"
             className="w-full bg-blue-600 hover:bg-blue-700 text-white py-2 rounded-lg font-semibold transition"
           >
-            Sign In
+            Register
           </button>
         </form>
 
         {/* Signup Link */}
         <p className="text-center text-sm text-gray-500 mt-6">
-          Don’t have an account?{" "}
-          <a href="/signup" className="text-blue-600 font-medium hover:underline">
-            Sign Up
-          </a>
+          Already have an account?{" "}
+          <span className="text-blue-600 cursor-pointer hover:underline">
+            <Link to="/Login">Login</Link>
+          </span>
         </p>
       </div>
     </div>
   );
 };
 
-export default SignIn;
+export default Register;
