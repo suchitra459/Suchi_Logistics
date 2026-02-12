@@ -39,7 +39,7 @@ const Navbar = () => {
               to="/login"
               className="bg-black/40 text-white px-4 py-2 text-sm rounded-md hover:bg-black transition"
             >
-              Register
+              Login
             </Link>
           </li>
         </ul>
@@ -66,7 +66,7 @@ const Navbar = () => {
             onClick={closeMenu}
             className="block w-full bg-blue-600 py-2 rounded-md text-center mt-3"
           >
-            Register
+            Login
           </Link>
         </div>
       )}
