@@ -99,8 +99,7 @@ const ContactUs = () => {
             <div className="space-y-4 text-sm">
               <p className="flex gap-3">
                 <FaMapMarkerAlt className="text-blue-500 mt-1" />
-                BMC Bhawani Mall, Saheed Nagar, Bhubaneswar,
-                Odisha-751007.
+                Angul, Odisha, India.
               </p>
 
               <p className="flex gap-3">

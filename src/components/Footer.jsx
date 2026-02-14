@@ -45,7 +45,7 @@ const Footer = () => {
           <div>
             <h3 className="font-semibold text-lg mb-4">Contact Us</h3>
             <ul className="space-y-3 text-sm text-gray-800">
-              <li>📍 BMC Bhawani Mall, Saheed Nagar Bhubaneswar, Odisha-751007.</li>
+              <li>📍Angul, Odisha, India.</li>
               <li>📞 +91-1234567890</li>
               <li>📞 +91-1234567890</li>
               <li>✉️ info@SuchiCourier.site</li>

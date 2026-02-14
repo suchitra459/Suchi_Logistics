@@ -18,13 +18,15 @@ const Navbar = () => {
       
       <div className="w-full flex items-center justify-between h-full pl-2 pr-4 sm:pl-4 sm:pr-6 md:pl-6 md:pr-10">
   
-        <div className="flex items-center ml-2 sm:ml-3 md:ml-10 mt-2">
-          <img
+       <div  className="flex items-center ml-2 sm:ml-3 md:ml-10 mt-2">
+         <Link to="/">  <img
             src="/images/logo3.png"
             alt="Suchi Courier"
             className="w-20 sm:w-24"
-          />
+          /> </Link>
+         
         </div>
+ 
 
         <ul className="hidden md:flex items-center gap-4 lg:gap-10 text-gray-200 font-medium text-sm lg:text-base">
           <li><Link to="/" className="hover:text-white">Home</Link></li>
